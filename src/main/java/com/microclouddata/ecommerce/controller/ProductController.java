@@ -31,7 +31,7 @@ public class ProductController {
 
     @GetMapping("/getAll")
     public List<Product> getAllProduct() throws Exception {
-        System.out.println("123123");
+        System.out.println("123123123");
         return productService.getAllProducts();
     }
     @CrossOrigin
